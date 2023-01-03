@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Twitter DND 🐦🚫</title>
         <meta
           name="description"
           content="New age tool to put your life on track by using Twitter in DND mode"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <main
         style={{ textAlign: "left", display: "flex", alignItems: "flex-start" }}
