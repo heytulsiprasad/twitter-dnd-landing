@@ -23,7 +23,7 @@ export default function Home() {
       >
         <h1>Twitter DND 🐦🚫</h1>
         <h2 style={{ width: "40rem" }}>
-          saves humans from instant gratification by infite scrolling and ad
+          saves humans from instant gratification by infinite scrolling and ad
           flashes which reduces focusing abilities and puts our race in danger
         </h2>
         <div>
