@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +40,19 @@ export default function Home() {
           <s>
             <h4>make humans multi plnetary species</h4>
           </s>
+        </div>
+        <div>
+          <h5>
+            why it hasn&apos;t been released yet? ask{" "}
+            <Link
+              href="https://twitter.com/heytulsiprasad"
+              passHref={true}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <u>him</u>
+            </Link>
+          </h5>
         </div>
         <footer>
           <h6>
