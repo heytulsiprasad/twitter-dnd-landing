@@ -22,8 +22,22 @@ export default function Home() {
         style={{ textAlign: "left", display: "flex", alignItems: "flex-start" }}
         className={[styles.main, inter.className].join(" ")}
       >
-        <h1>Twitter DND 🐦🚫</h1>
-        <h2 style={{ width: "40rem" }}>
+        <header>
+          <h1>Twitter DND 🐦🚫</h1>
+          <h5>
+            by{" "}
+            <u>
+              <a
+                href="https://twitter.com/heytulsiprasad"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                @heytulsiprasad
+              </a>
+            </u>
+          </h5>
+        </header>
+        <h2 style={{ maxWidth: "40rem" }}>
           saves humans from instant gratification by infinite scrolling and ad
           flashes which reduces focusing abilities and puts our race in danger
         </h2>
@@ -40,19 +54,6 @@ export default function Home() {
           <s>
             <h4>make humans multi plnetary species</h4>
           </s>
-        </div>
-        <div>
-          <h5>
-            why it hasn&apos;t been released yet? ask{" "}
-            <Link
-              href="https://twitter.com/heytulsiprasad"
-              passHref={true}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <u>him</u>
-            </Link>
-          </h5>
         </div>
         <footer>
           <h6>
