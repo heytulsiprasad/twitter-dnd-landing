@@ -22,6 +22,24 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
+      <Script
+        strategy="afterInteractive"
+        src="https://substackapi.com/widget.js"
+      />
+      <Script
+        id="content-embed-data"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.CustomSubstackWidget = {
+              substackUrl: "twitterdnd.substack.com",
+              placeholder: "trytwitterdnd@gmail.com",
+              buttonText: "Subscribe",
+              theme: "purple"
+            };
+          `,
+        }}
+      />
+
       <Component {...pageProps} />
     </>
   );

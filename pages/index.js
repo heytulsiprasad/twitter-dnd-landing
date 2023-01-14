@@ -16,17 +16,6 @@ export default function Home() {
           content="New age tool to put your life on track by using Twitter in DND mode"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script>
-          {`
-            window.CustomSubstackWidget = {
-              substackUrl: "twitterdnd.substack.com",
-              placeholder: "trytwitterdnd@gmail.com",
-              buttonText: "Subscribe",
-              theme: "green"
-            };
-          `}
-        </script>
-        <script src="https://substackapi.com/widget.js" async></script>
         <link rel="icon" href="/logo.png" />
       </Head>
       <main
