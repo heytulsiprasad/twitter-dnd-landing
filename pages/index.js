@@ -24,8 +24,8 @@ export default function Home() {
       >
         <header>
           <h1>Twitter DND 🐦🚫</h1>
-          <h5>
-            by{" "}
+          <h6>
+            An Initiative by{" "}
             <u>
               <a
                 href="https://twitter.com/heytulsiprasad"
@@ -35,7 +35,7 @@ export default function Home() {
                 @heytulsiprasad
               </a>
             </u>
-          </h5>
+          </h6>
         </header>
         <h2 style={{ maxWidth: "40rem" }}>
           saves humans from instant gratification by infinite scrolling and ad
