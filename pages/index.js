@@ -28,11 +28,11 @@ export default function Home() {
             An Initiative by{" "}
             <u>
               <a
-                href="https://twitter.com/heytulsiprasad"
+                href="https://twitter.com/thebuildguy"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                @heytulsiprasad
+                @thebuildguy
               </a>
             </u>
           </h6>
